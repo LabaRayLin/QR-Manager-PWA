@@ -1,4 +1,4 @@
-const CACHE='qr-manager-v2';const ASSETS=['./','index.html','style.css','app.js','vendor/qrcodegen.js','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png'];
+const CACHE='qr-manager-v4';const ASSETS=['./','index.html','style.css','app.js','vendor/qrcodegen.js','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','letter.js','letter.css'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==location.origin||u.pathname.endsWith('/links.json')||u.pathname.endsWith('/go.html')||u.pathname.endsWith('/go.js'))return;e.respondWith(fetch(e.request).then(r=>{if(r.ok){const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy))}return r}).catch(()=>caches.match(e.request)))});

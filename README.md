@@ -37,3 +37,7 @@ Chrome／Edge 可使用安裝功能加入桌面；iPhone Safari 使用分享 →
 - GitHub Pages 有使用政策與服務限制，不提供永久可用保證；不適合拿來經營商用 SaaS／交易網站。參閱 https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits 。
 
 QR 產生器由 Project Nayuki 提供（MIT），授權文字保留於 `vendor/qrcodegen.js`，所有 QR 圖片均在本機產生。
+
+## 製作實體感謝回函
+
+讀取清單後按「製作感謝回函」，勾選多組貼圖，選填去背圖檔網址，按「預覽 A4／輸出 PDF」。預覽中按「列印／另存 PDF」，選另存為 PDF、A4、100% 並關閉頁首及頁尾。每頁最多三組連結（去背圖檔算一組），更多內容自動分頁。回函中的貼圖連結與 QR 均使用固定轉址網址，不直接印目前目的網址，方便日後開通／更改。去背圖檔網址留空時，區塊與相關提醒均省略。回函統一使用「親愛的顧客，您好」；圖檔網址不會寫入 GitHub。
