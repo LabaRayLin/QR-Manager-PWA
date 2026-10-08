@@ -10,7 +10,7 @@
 4. 等待 Pages 顯示網站網址，如 `https://你的帳號.github.io/qr-links/`。開啟網站，即是管理介面。
 5. 到 https://github.com/settings/personal-access-tokens/new 建立 Fine-grained token：Resource owner 選自己；Repository access 選 **Only select repositories**，僅勾選 `qr-links`；Repository permissions 的 **Contents → Read and write**。不需要給 Workflows 權限。設定適當效期並複製權杖。
 6. 在 PWA 輸入帳號、儲存庫、分支及剛才的 Pages 網址，貼入權杖，按「連線並讀取清單」。
-7. 批次建立 50 組，按「發布全部變更」。看到發布完成後，即可列印 QR。網址尚未指定時會顯示「內容準備中」。
+7. 批次建立 50 組，按「發布全部變更」。看到發布完成後，即可列印 QR。網址尚未指定時會顯示感謝回函與「請記得私訊我開通」提醒。
 
 Chrome／Edge 可使用安裝功能加入桌面；iPhone Safari 使用分享 → 加入主畫面。權杖只在目前視窗記憶體中，網站不會自行保存；可使用 Chrome 密碼管理員儲存與自動填入。若沒有提示儲存，可在 Chrome 密碼管理員手動新增網站 https://labaraylin.github.io 、使用者名稱為 GitHub 帳號、密碼為專用權杖。權杖到期或更換後也需更新已儲存的密碼；不要把權杖傳給別人或寫進檔案。
 
