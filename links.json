@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "7052fac3-5ce4-4392-9bf8-33a809ac07d6",
+  "revision": "8ee3825e-bf47-4d3f-a489-01c241c9b98d",
   "items": [
     {
       "id": "001",
@@ -17,6 +17,12 @@
     {
       "id": "003",
       "name": "舒舒 Vol.1",
+      "url": "",
+      "enabled": true
+    },
+    {
+      "id": "004",
+      "name": "草莓每日一句",
       "url": "",
       "enabled": true
     }
