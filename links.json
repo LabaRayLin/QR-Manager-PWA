@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "b48e0f40-e2ad-4ff5-bb19-a000e9691780",
+  "revision": "dcb59b4c-0ec0-401f-8fc1-7cebad043e61",
   "items": [
     {
       "id": "001",
@@ -16,8 +16,8 @@
     },
     {
       "id": "003",
-      "name": "舒舒 Vol.1",
-      "url": "",
+      "name": "舒舒 Vol.2",
+      "url": "https://line.me/S/sticker/37514826",
       "enabled": true
     },
     {
