@@ -1,1 +1,30 @@
-{"version":1,"revision":"initial","items":[]}
+{
+  "version": 1,
+  "revision": "1e0d0068-d5d2-44c7-8460-b79c59e72c3b",
+  "items": [
+    {
+      "id": "001",
+      "name": "羽球人森 Vol.1",
+      "url": "https://line.me/S/sticker/37145134",
+      "enabled": true
+    },
+    {
+      "id": "002",
+      "name": "羽球人森(動態) Vol.1",
+      "url": "https://line.me/S/sticker/37166759",
+      "enabled": true
+    },
+    {
+      "id": "003",
+      "name": "舒舒 Vol.2",
+      "url": "https://line.me/S/sticker/37514826",
+      "enabled": true
+    },
+    {
+      "id": "004",
+      "name": "草莓每日一句",
+      "url": "https://line.me/S/sticker/37504228",
+      "enabled": true
+    }
+  ]
+}
