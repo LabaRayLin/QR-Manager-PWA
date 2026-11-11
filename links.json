@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "1e0d0068-d5d2-44c7-8460-b79c59e72c3b",
+  "revision": "27a9e2d8-1af1-4605-b482-c5fd6d6c1f9a",
   "items": [
     {
       "id": "001",
@@ -24,6 +24,12 @@
       "id": "004",
       "name": "草莓每日一句",
       "url": "https://line.me/S/sticker/37504228",
+      "enabled": true
+    },
+    {
+      "id": "005",
+      "name": "Vita 的親子日常",
+      "url": "https://line.me/S/sticker/37901763",
       "enabled": true
     }
   ]
